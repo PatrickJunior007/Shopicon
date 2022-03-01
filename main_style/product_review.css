@@ -1,0 +1,64 @@
+
+
+@media screen and (max-width:990px){
+  .boom{
+    margin-top: 20px;
+  }
+}
+
+.first_banner_1 {
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+  background-image: url(../unsplash39-1-of-2.jpg);
+  background-position: center center;
+  z-index: 1;
+}
+.image_container_1 {
+  background-color: rgba(1, 9, 28, 0.597);
+  width: 100%;
+  height: 100%;
+
+  display: table;
+  text-align: center;
+}
+.image_container_1 .text_area {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  top: -10px;
+  padding: 0 30px;
+}
+.text-heading {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: end;
+  padding-right: 80px;
+}
+@media(max-width: 800px){
+  .text-heading{
+    padding-right: 0px;
+    text-align: center;
+  }
+}
+
+#product_review_class{
+  position: relative;
+  top: 0px;
+}
+
+
+@media (max-width: 460px){
+  .product_image_slider_container{
+    margin-top: -30px;
+  }
+}
+
+
+@media screen and (max-width:1015px){
+  #product_search_bar{
+
+    top: 0px;
+  }
+}
